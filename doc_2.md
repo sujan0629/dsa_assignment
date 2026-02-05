@@ -54,3 +54,14 @@ Enter an infix expression (use single digits): 2+3*4
 Postfix expression: 234*+
 Result: 14
 ```
+
+## Limitations
+- Works with single-digit operands
+- Right associativity not fully supported for ^
+- No error handling for invalid expressions
+
+## Possible Enhancements
+- Support multi-digit numbers
+- Add error checking for invalid operators
+- Implement prefix notation conversion
+- Support variables in expressions
