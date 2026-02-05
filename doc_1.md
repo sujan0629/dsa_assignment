@@ -64,3 +64,15 @@ Result: The expression has BALANCED parentheses.
 Enter a mathematical expression: {[(])}
 Result: The expression has UNBALANCED parentheses.
 ```
+
+## Edge Cases Handled
+- Empty expression
+- Only opening parentheses
+- Only closing parentheses
+- Mismatched parentheses types
+- Nested parentheses
+
+## Implementation Notes
+- Uses array-based stack for efficiency
+- Fixed size stack (MAX = 100)
+- Can be modified for dynamic sizing
