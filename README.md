@@ -67,7 +67,36 @@ Find shortest paths from source vertex to all other vertices in weighted directe
 Compare performance of Bubble, Selection, Insertion, and Merge Sort by counting comparisons and swaps.
 
 ## Author
-DSA Assignment 2 - COMP202
+Sujan Bhatta - DSA Assignment 2 - COMP202
 
 ## License
 Educational use only.
+
+## Build Instructions
+
+Use the provided Makefile to build all programs:
+
+```bash
+# Build all programs
+make
+
+# Build specific program
+make prog_1
+
+# Clean compiled files
+make clean
+
+# Run specific program (example)
+make run_1
+```
+
+## Requirements
+- GCC compiler
+- C standard library
+- Make utility (optional, for Makefile)
+
+## Assignment Details
+- Course: COMP202 - Data Structures and Algorithms
+- Assignment: 2
+- Total Programs: 8
+- Each program includes complete documentation
