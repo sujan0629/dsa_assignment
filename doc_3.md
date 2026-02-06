@@ -51,3 +51,13 @@ Reverses the linked list itself by changing pointers:
 Forward: 1 2 3 4 5
 Reverse: 5 4 3 2 1
 ```
+
+## Memory Management
+- Dynamic memory allocation using malloc
+- Proper deallocation should be implemented in production code
+- Memory leaks possible if nodes not freed
+
+## Use Cases
+- Undo functionality in applications
+- Browser history navigation
+- Music playlist management
