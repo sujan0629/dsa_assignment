@@ -69,3 +69,13 @@ Enter edges:
 BFS Traversal starting from vertex 0: 0 1 2 3 4
 DFS Traversal starting from vertex 0: 0 2 3 4 1
 ```
+
+## Graph Representation Comparison
+- **Adjacency Matrix**: O(V²) space, O(1) edge lookup, good for dense graphs
+- **Adjacency List**: O(V+E) space, O(V) edge lookup, good for sparse graphs
+
+## Additional Graph Algorithms
+- Topological Sort
+- Cycle Detection
+- Connected Components
+- Minimum Spanning Tree (Prim's, Kruskal's)
