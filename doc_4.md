@@ -74,3 +74,15 @@ Backward: 5 4 3 2 1
 Inserted 10 at beginning
 Forward: 10 1 2 3 4 5
 ```
+
+## Real-world Applications
+- Browser forward/backward navigation
+- LRU cache implementation
+- Text editor with undo/redo
+- Train bogies management
+
+## Comparison with Singly Linked List
+- More memory per node (extra prev pointer)
+- Faster deletion given node pointer
+- Bidirectional traversal support
+- Easier to implement certain algorithms
