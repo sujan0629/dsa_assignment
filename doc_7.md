@@ -76,3 +76,13 @@ Vertex    Distance    Path
 0 -> 3    4           0 2 1 3
 0 -> 4    7           0 2 1 3 4
 ```
+
+## Comparison with Other Algorithms
+- **Bellman-Ford**: Works with negative weights, O(VE) time
+- **Floyd-Warshall**: All-pairs shortest paths, O(V³) time
+- **A* Search**: Uses heuristics for faster pathfinding
+
+## Optimization Techniques
+- Use priority queue (min-heap) for O((V + E) log V) complexity
+- Early termination when destination is reached
+- Bidirectional search for better performance
