@@ -81,3 +81,16 @@ Original array: 4 10 3 5 1 8
 Max Heap: 10 5 8 4 1 3
 Min Heap: 1 3 4 5 10 8
 ```
+
+## Heap Sort Algorithm
+Using max heap to sort in ascending order:
+1. Build max heap from unsorted array: O(n)
+2. Repeatedly extract max and heapify: O(n log n)
+3. Total time complexity: O(n log n)
+4. In-place sorting with O(1) extra space
+
+## Priority Queue Implementation
+Heaps are ideal for priority queues:
+- Insert: O(log n)
+- Extract min/max: O(log n)
+- Peek min/max: O(1)
