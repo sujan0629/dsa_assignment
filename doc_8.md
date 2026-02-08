@@ -92,3 +92,16 @@ Merge Sort     - Comparisons: 19, Swaps: 30
 - Bubble Sort has most swaps for random data
 - Selection Sort has fewest swaps
 - Insertion Sort performs well on nearly sorted data
+
+## When to Use Which Algorithm?
+- **Bubble Sort**: Educational purposes, nearly sorted small arrays
+- **Selection Sort**: Minimize memory writes, small arrays
+- **Insertion Sort**: Nearly sorted data, online sorting
+- **Merge Sort**: Guaranteed O(n log n), stable sort required, linked lists
+- **Quick Sort**: Average O(n log n), not implemented here but faster in practice
+
+## Additional Sorting Algorithms
+- Quick Sort: O(n log n) average, O(n²) worst
+- Heap Sort: O(n log n) always, not stable
+- Radix Sort: O(nk) for integers
+- Counting Sort: O(n+k) when range is known
