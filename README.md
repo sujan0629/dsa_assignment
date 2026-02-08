@@ -100,3 +100,22 @@ make run_1
 - Assignment: 2
 - Total Programs: 8
 - Each program includes complete documentation
+
+## Testing and Validation
+All programs have been tested with various inputs including:
+- Edge cases (empty inputs, single elements)
+- Normal cases (typical inputs)
+- Large inputs (stress testing)
+- Invalid inputs (error handling)
+
+## Documentation Structure
+Each program has accompanying documentation (`doc_X.md`) that includes:
+- Problem statement
+- Data structures used
+- Algorithm explanation
+- Time and space complexity analysis
+- Sample input/output
+- Implementation notes and limitations
+
+## Contact
+For questions or issues, please refer to the course materials or contact the instructor.
